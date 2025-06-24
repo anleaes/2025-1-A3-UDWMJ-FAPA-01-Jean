@@ -1,0 +1,44 @@
+{
+  "hospedagens": [
+    {
+      "id": "1",
+      "nome": "Pousada Paraíso",
+      "cidade": "Rio de Janeiro",
+      "diaria": 150,
+      "tipo": "Pousada",
+      "quartos": 4
+    },
+    {
+      "id": "e866",
+      "nome": "Apartamento",
+      "cidade": "Porto Alegre",
+      "diaria": 120,
+      "tipo": "Apartamento",
+      "quartos": 4
+    }
+  ],
+  "clientes": [
+    {
+      "id": "1",
+      "nome": "João Silva",
+      "email": "joao@email.com",
+      "telefone": "11999999999"
+    },
+    {
+      "id": "b043",
+      "nome": "Carlos",
+      "email": "carlos@carlos.com",
+      "telefone": "123321"
+    }
+  ],
+  "reservas": [
+    {
+      "id": "86c3",
+      "clienteId": "b043",
+      "hospedagemId": "e866",
+      "dataEntrada": "2025-06-24",
+      "dataSaida": "2025-07-01",
+      "hospedes": 2
+    }
+  ]
+}
